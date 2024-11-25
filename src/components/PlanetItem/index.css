@@ -1,0 +1,63 @@
+/* Write your CSS here */
+@media (min-width: 768px) {
+  .image-settings {
+    height: 51vh;
+    width: 45%;
+  }
+  .head {
+    color: #05acff;
+    font-size: 50px;
+    font-family: cursive;
+    text-align: center;
+  }
+  .item-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .title {
+    color: #f1f5f9;
+    font-size: 30px;
+    text-align: center;
+    font-family: cursive;
+  }
+  .desc {
+    color: #f1f5f9;
+    font-family: cursive;
+  }
+}
+/* Write your CSS here */
+@media (max-width: 768px) {
+  .image-settings {
+    height: 30vh;
+    width: 100%;
+  }
+  .head {
+    color: #05acff;
+    font-size: 45px;
+    font-family: cursive;
+    text-align: center;
+  }
+  .item-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .title {
+    color: #f1f5f9;
+    font-size: 30px;
+    text-align: center;
+    font-family: cursive;
+  }
+  .desc {
+    color: #f1f5f9;
+    font-family: cursive;
+    font-size: 16px;
+  }
+}
